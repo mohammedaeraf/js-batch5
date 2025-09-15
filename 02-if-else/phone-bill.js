@@ -2,14 +2,14 @@
 // let presentReading = 490;
 // let calls = presentReading - previousReading;
 
-let calls = 150;
+let calls = 300;
 
 let totalBill;
 if (calls <= 100) {
   totalBill = 0;
 } else if (calls > 200) {
-  totalBill = (calls - 200) * 0.8 + (calls - 200) * 0.9;
+  totalBill = 0 * 100 + 0.9 * 100 + (calls - 200) * 0.8;
 } else {
-  totalBill = (calls - 100) * 0.9;
+  totalBill = 0 * 100 + (calls - 100) * 0.9;
 }
 console.log("Total Bill = " + totalBill);
