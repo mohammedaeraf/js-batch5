@@ -8,10 +8,10 @@ while (n > 0) {
   remainder = n % 10; // Get last digit
   reverse = reverse * 10 + remainder; // Append digit to reverse
   n = Math.floor(n / 10); // Remove last digit
-  console.log("Loop Execution #" + i);
-  console.log("Remainder = " + remainder);
-  console.log("reverse = " + reverse);
-  console.log("n = " + n);
+  // console.log("Loop Execution #" + i);
+  // console.log("Remainder = " + remainder);
+  // console.log("reverse = " + reverse);
+  // console.log("n = " + n);
   console.log();
   i++;
 }
