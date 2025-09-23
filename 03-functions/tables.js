@@ -3,8 +3,5 @@ function printTable(n) {
       let result = n * i;
       console.log(n + " x " + i + " = " + result);
     }
-    console.log();
 }
 printTable(5);
-printTable(15);
-printTable(21);
