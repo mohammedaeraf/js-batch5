@@ -16,7 +16,8 @@ console.log("Position of orange = " + index); // 👉 2
 // ✅ Check if an element exists in the array using includes()
 let searchFruit = "banana";
 let found = fruits.includes(searchFruit);
-console.log(searchFruit + " present in array " + found); // 👉 false
+// console.log(searchFruit + " present in array " + found); // 👉 false
+console.log(`${searchFruit} present in array ${found}`);
 
 // ✅ Extract a part of the array using slice()
 let numbers = [19, 20, 30, 40, 50, 60, 70];
@@ -45,6 +46,8 @@ for (let i = 0; i < numbers2.length; i++) {
   total = total + numbers2[i];
 }
 console.log("Total = " + total); // 👉 60
+console.log(`Total = ${total}`);
+
 
 // ✅ Calculate total using a for-of loop (simpler)
 total = 0;
